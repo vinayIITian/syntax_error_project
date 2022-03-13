@@ -1,0 +1,30 @@
+.navbar {
+    background-color: rgb(179, 34, 179);
+    border-radius: opx;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin:13px 80px;
+    font-weight: bold;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color:#ffffff;
+}
+.navbar li a:hover{
+    color:red;
+}
+.navbar input{
+    border:2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width:130px;
+}

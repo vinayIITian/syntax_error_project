@@ -1,0 +1,126 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(231, 229, 229);
+}
+
+.shopping-list{
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: white;
+}
+.heading{
+    padding-top: 1px;
+}
+.bottomBorder {
+    border-bottom: 2px solid grey;
+    height: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -32px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+.bottomBorder p{
+    height: 20px;
+    margin-top: -15px;
+    padding-right: 13px;
+    color: grey;
+}
+
+.list{
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.list ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.list ul li .price{
+    margin-left: 1%;
+}
+
+.list ul li .checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.list ul li .item-img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.list ul li .item-img img{
+    width: 100%;
+    height: auto;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 600;
+    width: 95%;
+}
+
+.seller{
+    font-size: 13px;
+}
+
+.tag{
+    font-size: 15px;
+    color: blueviolet;
+}
+
+.removeFromCart{
+    background-color: rgb(4, 173, 173);
+    height: 30px;
+    width: 100px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.removeFromCart:hover{
+    background-color: rgb(2, 156, 156);
+}
+
+.go-to-book{
+    margin-right: 30px;
+}
+
+.gotobook{
+    background-color: rgb(4, 173, 173);
+    height: 30px;
+    width: 100px;
+    border: 0;
+    float: right;
+    border-radius: 4px;
+    margin-top: -40px;
+    color: white;
+    cursor: pointer;
+}
+
+.gotobook:hover{
+    background-color: rgb(2, 156, 156);
+}
+
+.Deliver{
+    background-color: rgb(4, 173, 173);
+    height: 30px;
+    width: 100px;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.Deliver:hover{
+    background-color: rgb(2, 156, 156);
+}

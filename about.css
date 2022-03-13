@@ -1,0 +1,44 @@
+body {
+    background-image: url('about us.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center;*/
+    background-size: cover; 
+}
+h2{
+   padding: 271px 266px 4px 293px;
+   width: 61%;
+   font-size: 40px;
+   color:brown;
+   font-size: 24px;
+   background: url(https://www.bookswagon.com/images/aboutus-title.png) no-repeat bottom;
+   height: 105px;
+   line-height: 105px;
+   color: #fff;
+   text-align: center;
+   font-weight:bold;
+}
+.box{
+   width: 715px;
+   margin: auto;
+   max-width: 100%;
+
+}
+.infoup{
+   background: url(https://www.bookswagon.com/images/aboutnoticeboxtop.png) no-repeat center;
+   height: 65px;
+   background-size: 100% 65px;
+}
+.infomiddle{
+background: url(https://www.bookswagon.com/images/aboutnoticebody.png) repeat-y center;
+height: auto;
+padding: 0 34px;
+background-size: 100% 65px;
+font-size: 20px;
+text-align: center;
+}
+.infobottom{
+   background: url(https://www.bookswagon.com/images/aboutnoticeboxbottom.png) no-repeat center;
+   height: 65px;
+   margin-top: -1px;
+   background-size: 100% 65px
+}

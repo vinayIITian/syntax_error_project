@@ -1,0 +1,147 @@
+body
+{
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(pic3.png) ;
+    font-family: sans-serif;
+}
+
+.body[background-image]image{
+    height: 300px;
+    width: 300px;
+    top: 300px;
+    left: 300px;
+}
+.topdiv
+{
+    height: 150px;
+    background-color: #002D62;
+    margin: 0%;
+}
+
+.middlediv{
+    height: 40px;
+    background-color: #fba0e3;
+    margin: 0%;
+}
+
+/* .bottomdiv{
+    background-color: #89CFF0;
+    height: 600px;
+    margin: 0%;
+} */
+
+.toplefticon{
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+
+.homebutton{
+    position:absolute;
+    left: 80px;
+    
+}
+
+.bottomleftdiv{
+   
+    float: left;
+    width: 300px;
+    background-color: #89CFF0;
+    height: 600px;
+
+
+
+}
+
+.bottomleftdiv ul{
+    list-style-type: none;
+}
+.bottomleftdiv ul li{
+    margin-top: 5px;
+}
+
+
+
+.albook{
+    background-color: rgb(4, 173, 173);
+    height: 30px;
+    width: 100px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 10%;
+}      
+.albook:hover{
+    background-color: rgb(2, 156, 156);
+}
+.login{
+    height: 30px;
+    width: 100px;
+    border: 0;
+    float: right;
+    border-radius: 4px;
+    color: white;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+}
+/* .search button{
+    
+    background-color: black;
+    color: #f2f2f2;
+    position:absolute;
+    right: 190px;
+    height: 30px;
+    top: 50px;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    
+}   */
+
+.link1{
+    position: relative;
+    left: 400px;
+    top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.link2{
+    position: relative;
+    left: 460px;
+    top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.link3{
+    position: relative;
+    left: 520px;
+    top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+/* .bottomright{
+    background-image: url(pic2.png);
+    background-size: cover;
+} */
+
+.poster{
+    min-height: 200px;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 80px;
+    float: left;
+}

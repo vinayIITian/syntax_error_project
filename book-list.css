@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+    
+}
+
+.container{
+    background-color: white;
+    margin-top: 60px;
+    width: 95%;
+    margin-left: 2.5%;
+        
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.image{
+
+    width: 200px;
+    height: auto;
+    margin-left: 80px;
+   
+}
+.txt{
+   
+    margin-left: 20px;
+}
+
+.price{
+    font-weight: bolder;
+}
+.addCart{
+    background-color: rgb(4, 173, 173);
+    height: 30px;
+    width: 100px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.addCart:hover{
+    background-color: rgb(2, 156, 156);
+}
+
+.gotocart{
+    background-color: rgb(4, 173, 173);
+    height: 30px;
+    width: 100px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.go-to-cart{
+    border-bottom: 1px solid gray;
+}
+.gotocart:hover{
+    background-color: rgb(2, 156, 156);
+}

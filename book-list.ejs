@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All books</title>
+    <link rel="stylesheet" href="book-list.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+
+<body>
+    <%- include('navigation') %>
+    <div class="container">
+        <div class="go-to-cart">
+           <a href="/home"><button class="gotocart">Got Back</button></a> 
+        </div>
+        <% items.forEach((item)=>{ %>
+            <div class="card">
+                <div class="image">
+                    <img src="./book-images/<%= item.ImageSrc %>" alt="image">
+                </div>
+                <div class="txt">
+                    <din class="name" style=" padding: 5px 0px 5px 5px;">
+                        <%= item.Name %>
+                    </din>
+                    <div class="author" style=" padding: 5px 0px 5px 5px;"><span
+                            style="font-weight: 100; padding-right: 5px;">by</span><%= item.author %></div>
+                    <div class="price" style=" padding: 5px 0px 5px 5px;">$<%= item.price %></div>
+                    <form action="/cart/<%= item.price %>/<%= item.Name %>/<%= item.author %>/<%= item.ImageSrc %>" method="post">
+                        <input type="submit" name="add-to-cart" class="addCart" value="Add to Cart">
+                    </form>
+                </div>
+            </div>
+            <% }) %>
+    </div>
+</body>
+
+</html>
